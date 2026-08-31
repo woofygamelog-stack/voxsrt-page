@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: VoxSRT privacy policy
+    url: https://woofygamelog-stack.github.io/voxsrt-page/privacy/
+    about: Review what VoxSRT processes locally and which network requests it can make.
+  - name: VoxSRT support information
+    url: https://woofygamelog-stack.github.io/voxsrt-page/support/
+    about: Read common checks and the information that is safe to include in a request.

@@ -1,0 +1,64 @@
+name: Report inappropriate AI output
+description: Report inaccurate, offensive, harmful, or unsuitable subtitle output using the minimum necessary text.
+title: "[AI output] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        GitHub Issues are public. Do not upload media, audio, full subtitle files, credentials, personal file names, full file paths, or unredacted diagnostics. Remove personal and confidential information from any short excerpt.
+  - type: input
+    id: version
+    attributes:
+      label: VoxSRT version
+    validations:
+      required: true
+  - type: input
+    id: models
+    attributes:
+      label: Selected model names
+      description: List model names only. Do not include local paths.
+    validations:
+      required: true
+  - type: input
+    id: languages
+    attributes:
+      label: Source and target language
+      placeholder: For example, Japanese to Korean
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Concern category
+      options:
+        - Inaccurate or missing text
+        - Offensive or hateful text
+        - Sexual or violent text
+        - Personal or confidential information
+        - Unsafe or harmful instruction
+        - Other unsuitable output
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short description
+      description: Explain the concern without including private content.
+    validations:
+      required: true
+  - type: textarea
+    id: excerpt
+    attributes:
+      label: Minimal redacted excerpt (optional)
+      description: Include only the smallest excerpt needed and remove personal or confidential information.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-data confirmation
+      options:
+        - label: I removed media, audio, full subtitles, credentials, personal file names, full paths, unredacted diagnostics, and private information.
+          required: true

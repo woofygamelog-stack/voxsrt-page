@@ -1,0 +1,60 @@
+name: VoxSRT support request
+description: Request help without posting media, subtitle content, credentials, paths, or unredacted diagnostics.
+title: "[Support] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        GitHub Issues are public. Do not upload media, audio, subtitle files or content, model files, credentials, personal file names, full file paths, or unredacted diagnostics.
+  - type: input
+    id: version
+    attributes:
+      label: VoxSRT version
+      placeholder: For example, 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: For example, Windows 11 24H2
+    validations:
+      required: true
+  - type: input
+    id: models
+    attributes:
+      label: Selected model names
+      description: List model names only. Do not include local paths.
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Step that failed
+      options:
+        - App installation or launch
+        - Model download or verification
+        - Speech recognition
+        - Source correction
+        - Translation
+        - Subtitle file output
+        - Store trial, license, or purchase
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: Describe the visible behavior using non-sensitive details only.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-data confirmation
+      options:
+        - label: I removed media, audio, subtitle content, credentials, personal file names, full paths, and unredacted diagnostics.
+          required: true
