@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "publication_state": "local-artifact",
+  "public_base_url": "https://woofygamelog-stack.github.io/voxsrt-page",
+  "pages": [
+    {
+      "path": "privacy/index.html",
+      "bytes": 3719,
+      "sha256": "49F3C02C78130D3D87B5006BB31094B79D0EC92AACB9F002818F8ECCF4D0A851"
+    },
+    {
+      "path": "report-ai-output/index.html",
+      "bytes": 1530,
+      "sha256": "A0496850EFD289DA69DF6F7D2F8A18608E1A5B947D153AFC6FDD0E1A8511F06D"
+    },
+    {
+      "path": "support/index.html",
+      "bytes": 1691,
+      "sha256": "2900A865FE04C544B82E6528B0CA53809B3D92E0A5741716927E52045EDF524D"
+    }
+  ],
+  "limitations": "Local generated files are not deployed, live verified, Store submitted, certified, or published."
+}
