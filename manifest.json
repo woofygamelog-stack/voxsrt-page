@@ -4,6 +4,11 @@
   "public_base_url": "https://woofygamelog-stack.github.io/voxsrt-page",
   "pages": [
     {
+      "path": "licenses/index.html",
+      "bytes": 1601840,
+      "sha256": "FB22CC59D77ADD7941B905DC33BB37DB1CE0EF9550D1B61A437D7247A1396DF8"
+    },
+    {
       "path": "privacy/index.html",
       "bytes": 3719,
       "sha256": "49F3C02C78130D3D87B5006BB31094B79D0EC92AACB9F002818F8ECCF4D0A851"
@@ -19,5 +24,18 @@
       "sha256": "2900A865FE04C544B82E6528B0CA53809B3D92E0A5741716927E52045EDF524D"
     }
   ],
-  "limitations": "Local generated files are not deployed, live verified, Store submitted, certified, or published."
+  "source_artifacts": [
+    {
+      "path": "sources/voxsrt-ffmpeg-8.1.2-corresponding-source.zip",
+      "bytes": 64727394,
+      "sha256": "D54C3DAAE436B53A149FF76A753E062356D2709A3E5CF3EA049AF41D0E97D138",
+      "delivery_method": "direct-download"
+    },
+    {
+      "path": "sources/voxsrt-ffmpeg-8.1.2-corresponding-source.json",
+      "bytes": 578,
+      "sha256": "2C43FCCE79B17E1EC53056EAA04A1D95A43D4630DDE5FD3A9EC8A8A64FD1D122"
+    }
+  ],
+  "limitations": "This manifest records generated artifacts. Deployment and live verification are recorded separately; this is not Store submission, certification, or publication evidence."
 }
