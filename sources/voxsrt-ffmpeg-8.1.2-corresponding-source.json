@@ -6,6 +6,6 @@
   "sha256": "91E42EB15D02D6C08C3B24098992F1CC8CC166AB03293116C8AB836A80C9039D",
   "embedded_manifest_sha256": "8A830CF67A3BEC2E6C4D177AD5A5CDDC0B16C5C5AAF7CF2DD34A4486A8C4D4F2",
   "source_file_count": 4,
-  "status": "local-artifact",
-  "limitations": "Not deployed or bound to a production MSIX candidate until separately verified."
+  "status": "public-deployed",
+  "limitations": "This manifest records the public corresponding-source archive. Release-candidate binding is maintained in the private VoxSRT release evidence workbook."
 }
