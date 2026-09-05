@@ -2,9 +2,9 @@
   "schema_version": 1,
   "bundle_path": "voxsrt-ffmpeg-8.1.2-corresponding-source.zip",
   "public_url": "https://woofygamelog-stack.github.io/voxsrt-page/sources/voxsrt-ffmpeg-8.1.2-corresponding-source.zip",
-  "bytes": 64727394,
-  "sha256": "D54C3DAAE436B53A149FF76A753E062356D2709A3E5CF3EA049AF41D0E97D138",
-  "embedded_manifest_sha256": "304345F3327C2A7AFEBD22155F88F88599F11558A4B35746B3BA269506188F72",
+  "bytes": 64727351,
+  "sha256": "91E42EB15D02D6C08C3B24098992F1CC8CC166AB03293116C8AB836A80C9039D",
+  "embedded_manifest_sha256": "8A830CF67A3BEC2E6C4D177AD5A5CDDC0B16C5C5AAF7CF2DD34A4486A8C4D4F2",
   "source_file_count": 4,
   "status": "local-artifact",
   "limitations": "Not deployed or bound to a production MSIX candidate until separately verified."
